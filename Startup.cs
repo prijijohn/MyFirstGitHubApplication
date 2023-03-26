@@ -32,7 +32,7 @@ namespace MyFirstGitHubApplication
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("My second change 333 change!!!!!!!!!!!!!!!!!!");
+                    await context.Response.WriteAsync("Azure functions!!!!!!!!!!!!!!!!!!");
                 });
             });
         }
